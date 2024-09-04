@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    margin: 0;
+    background-image: url(a256b3fff27dca0291a81f32144eb2cb.jpg);
+}
+
+.container {
+    background: rgba(0, 0, 0, 0,5);
+    border-radius: 10px;
+    box-shadow: 10px 20px rgba(0, 0, 0, 0,5);
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.judul {
+    color: #fff;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    background-image: url(pink-floyd-7b7xb7yg0btttpzl.jpg);  
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.link:hover {
+    background: #555;
+}
+
+.link-card {   
+    display: inline-block;
+    width: 90%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.link-card img {   
+    width: 40%;
+    object-fit: cover;
+    border-radius: 10px;
+    border-radius: 50%;
+}
+
+.link-cad {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-cad img {
+    transform: scale(2.5);
+    transform-origin: right;
+    justify-content: center;
+    align-items: center;
+    width: 13%;   
+}
+
+
+
+
+
+
+
+
+
+
