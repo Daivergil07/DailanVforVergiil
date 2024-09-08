@@ -38,7 +38,7 @@ body {
 }
 
 .link:hover {
-    background: #555;
+    background: #333;
 }
 
 .link-card {   
@@ -72,8 +72,19 @@ body {
     width: 13%;   
 }
 
+#playbutton {
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
 
-
+.haha-z {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
